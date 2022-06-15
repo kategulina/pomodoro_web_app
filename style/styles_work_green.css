@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    color: #FFF8E5;
+    font-size: 3rem;
+    line-height: 1;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #FFB344;
+}
+
+h2 {
+    color: #FFF8E5;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+h4 {
+    color: #FFF8E5;
+    font-size: 2rem;
+    line-height: 1;
+}
+
+h5 {
+    color: #FFF8E5;
+    line-height: 1;
+}
+
+div {
+    padding-bottom: 2rem;
+}
+
+header {
+    background-color: #00A19D;
+    color: #FFF8E5;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.title p {
+    font-family: 'Quicksand', sans-serif;
+    color: #FFF8E5;
+    font-size: 2rem;
+    line-height: 1;
+}
+
+footer {
+    background-color: #00A19D;
+    text-align: center;
+    padding: 3% 7%;
+}
+
+footer p {
+    padding-top: 1.8rem;
+    color: #FFF8E5;
+}
+
+/* login button */
+.login-btn {
+    border-radius: 10px;
+    color: #FFF8E5;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 8px;
+    margin: auto 2rem auto 1rem;
+    background-color: #E05D5D;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    float: right;
+ }
+ 
+ .login-btn:hover {
+    background: #FFB344;
+    border-radius: 10px;
+    text-decoration: none;
+ }
+
+/* work button */
+.work-btn {
+    border-radius: 10px;
+    color: #FFF8E5;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 8px;
+    background-color: #E05D5D;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    float: right;
+ }
+ 
+ .work-btn:hover {
+    background: #FFB344;
+    border-radius: 10px;
+    text-decoration: none;
+ }
+
+ /* logo button */
+ .BUTTON_NCQ {
+    border-radius: 10px;
+    color: #00A19D;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 8px;
+    background-color: #FFF8E5;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_NCQ:hover {
+    background: #FFB344;
+    border-radius: 10px;
+    text-decoration: none;
+ }
+
+ .timer, .to-do-list {
+    padding: 1rem 4rem;
+    background-color: #007D7B;
+    display: grid;
+    border-radius: 7%;
+ }
+
+ .to-do-list {
+    padding: 1rem 2rem;
+ }
+
+ .sm-icon {
+    color: #FFF8E5;
+    margin: auto 1.5%;
+}
+
+.sm-icon:hover, .fas:hover {
+    color: #FFB344;
+}
+
+.fa-chevron-down, .fa-chevron-up, .addTick {
+    color: #FFF8E5;
+}
+
+/* Start-stop button */
+.start-stop-btn {
+    border-radius: 10px;
+    color: #00A19D;
+    font-size: 30px;
+    font-weight: 100;
+    padding: 15px;
+    margin: 3rem;
+    background-color: #FFF8E5;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+ }
+ 
+ .start-stop-btn:hover, .save-btn:hover {
+    background: #FFB344;
+    border-radius: 10px;
+    text-decoration: none;
+ }
+
+ .save-btn {
+    border-radius: 10px;
+    color: #00A19D;
+    font-size: 30px;
+    font-weight: 100;
+    padding: 15px;
+    margin: 3rem;
+    background-color: #FFF8E5;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+ }
+
+.work-area {
+    background-color: #0BE6A4;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 10rem 20%;
+ }
+
+ /* Add new task input */
+ .addNewTask {
+     background-color: #FFF8E5;
+     width: 80%;
+     border: 0;
+     border-radius: 4px;
+ }
+
+
+ /* To-do list style */
+ li {
+     color: #FFF8E5;
+     padding: 0.5rem;
+     padding-left: 0;
+ }
+
+ ul {
+     text-align: left;
+ }
+
+ ul li:hover {
+     background-color: #00A19D;
+     border-radius: 4px;
+ }
+
+ /* checked mark when task is done */
+ ul li.checked {
+     text-decoration: line-through;
+ }
+
+ .close {
+     color: #E05D5D;
+ }
+
+ .close:hover {
+     background-color: #E05D5D;
+     border-radius: 4px;
+ }
+
+ @media print {
+
+    * {
+        border: none !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    h2 {
+        font-size: 2rem;
+     }
+
+    .to-do-list {
+        padding: 0 7rem !important;
+    }
+ }

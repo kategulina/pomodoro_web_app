@@ -1,0 +1,376 @@
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    color: #FFF8E5;
+    font-size: 4rem;
+    line-height: 1;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #FFB344;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+h4 {
+    color: #FFF8E5;
+    font-size: 2rem;
+    line-height: 1;
+}
+
+h5 {
+    font-size: 2rem;
+    line-height: 1;
+}
+
+
+div {
+    padding-bottom: 2rem;
+}
+
+.title {
+    padding: 3rem;
+    text-align: center;
+    background-color: #00A19D;
+    border: 1px solid #00A19D;  /* remove gap between 2 divs inside this container */
+}
+
+#sign-up, #info {
+    margin: auto;
+    display: block;
+    background-color: #FFF8E5;
+    border: 1px solid #FFF8E5;
+    padding: 2rem 10rem;
+}
+
+#features {
+    text-align: center;
+    background-color: #E05D5D;
+    border: 1px solid #E05D5D;
+    color: #FFF8E5;
+}
+
+#features-list {
+    display: flex;
+    align-items: center;
+}
+
+.feature-item {
+    padding: 3% 13%;
+}
+
+.img-features:hover, .sm-icon:hover {
+    color: #FFB344;
+}
+
+.img-features {
+    color: #FFF8E5;
+}
+
+.logo-img {
+    color: #00A19D;
+    padding-right: 0.2rem;
+}
+
+header {
+    background-color: #00A19D;
+    color: #FFF8E5;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.title p {
+    font-family: 'Quicksand', sans-serif;
+    color: #FFF8E5;
+    font-size: 2rem;
+    line-height: 1;
+}
+
+footer {
+    background-color: #00A19D;
+    text-align: center;
+    padding: 3% 7%;
+}
+
+ol {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+li {
+    padding: 0.5rem;
+}
+
+ul {
+    display: inline-block;
+}
+
+#info div {
+    margin: auto 15%;
+}
+
+
+.sm-icon {
+    color: #FFF8E5;
+    margin: auto 1.5%;
+}
+
+footer p {
+    padding-top: 1.8rem;
+    color: #FFF8E5;
+}
+
+/* login button */
+.login-btn {
+    border-radius: 10px;
+    color: #FFF8E5;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 8px;
+    margin: auto 2rem auto 1rem;
+    background-color: #E05D5D;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    float: right;
+ }
+ 
+ .login-btn:hover {
+    background: #FFB344;
+    border-radius: 10px;  
+    text-decoration: none;
+ }
+
+/* work button */
+.work-btn {
+    border-radius: 10px;
+    color: #FFF8E5;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 8px;
+    background-color: #E05D5D;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    float: right;
+ }
+ 
+ .work-btn:hover {
+    background: #FFB344;
+    border-radius: 10px;
+    text-decoration: none;
+ }
+
+ /* big sign up button */
+ .sign-up-btn {
+    border-radius: 10px;
+    color: #FFF8E5;
+    font-size: 30px;
+    font-weight: 100;
+    padding: 35px;
+    background-color: #E05D5D;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    float: right;
+    margin-right: 3rem;
+ }
+ 
+ .sign-up-btn:hover {
+    background: #FFB344;
+    border-radius: 10px;
+    text-decoration: none;
+ }
+
+ /* logo button */
+ .BUTTON_NCQ {
+    border-radius: 10px;
+    color: #00A19D;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 8px;
+    background-color: #FFF8E5;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_NCQ:hover {
+    background: #FFB344;
+    border-radius: 10px;
+    text-decoration: none;
+ }
+
+.login-section {
+    background-color: #FFF8E5;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 7rem 3rem;
+}
+
+/* create acc and log in divs */
+.create-acc-form {
+    display: inline-block;
+    padding: 0 2rem 10rem;
+}
+
+.login-form {
+    display: inline-block;
+    padding: 0 2rem 10rem;
+}
+
+input {
+	background-color: #FFF8E5;
+	border: none;
+	/* padding: 12px 15px; */
+    padding: 0.8rem 1rem;
+	/* margin: 8px 0; */
+    margin: 1.2rem 0;
+	width: 100%;
+}
+
+form {
+	background-color: #E05D5D;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 2rem;
+	height: 100%;
+	text-align: center;
+    border-radius: 30px;
+}
+
+/* create-btn */
+.create-btn {
+    border-radius: 10px;
+    color: #00A19D;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 14px;
+    background-color: #FFF8E5;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+ }
+ 
+ .create-btn:hover {
+    background: #FFB344;
+    border-radius: 10px;
+    text-decoration: none;
+ }
+
+ /* log-in btn */
+ .log-in-btn {
+    border-radius: 10px;
+    color: #00A19D;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 14px;
+    background-color: #FFF8E5;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+ }
+ 
+ .log-in-btn:hover {
+    background: #FFB344;
+    border-radius: 10px;
+    text-decoration: none;
+ }
+
+
+/* Personal page info */
+.personal-info {
+    background-color: #FFF8E5;
+    padding: 5rem 7rem;
+}
+
+.saved-todo {
+    background-color: #007D7B;
+    padding: 3rem 7rem;
+}
+
+input {
+    border-radius: 4px;
+}
+
+label {
+    color: #FFF8E5;
+}
+
+input:required {
+    border: #00A19D 2px solid;
+}
+
+.color-req {
+    border-radius: 3px;
+    background-color: #00A19D;
+    padding: 3px 5px;
+}
+
+/* checked mark when task is done */
+ ul li.checked {
+    text-decoration: line-through;
+}
+
+.toDoList {
+    color: #FFF8E5;
+    padding: 0.5rem;
+    padding-left: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.right-left-btn {
+    color: #FFF8E5;
+    margin: 1rem;
+}
+
+.right-left-btn:hover {
+    color: #FFB344;
+}
+
+@media print {
+    /* WORKAROUND: border and paddings doesn't work without !important with * */
+    * {
+        border: none !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .sign-up-btn {
+        display: none;
+    }
+
+    form {
+        display: none;
+    }
+
+    h4 {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+}
